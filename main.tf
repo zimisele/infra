@@ -16,7 +16,7 @@ resource "aws_security_group" "example" {
 resource "aws_instance" "anna" {
   instance_type = "t3.micro"
   subnet_id = "xxxx"
-  ami = ""
+  ami = var.ami
   security_groups = [ "" ]
   tags = {
     Name = "myec2"
