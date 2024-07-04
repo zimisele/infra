@@ -2,6 +2,7 @@ resource "aws_security_group" "example" {
   # ... other configuration ...
   #nana need to be add aswell
   #this thing is working just fine
+  # I love working with this bcz it's awesome
   egress {
     from_port       = 80
     to_port         = 80
