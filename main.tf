@@ -4,7 +4,7 @@ resource "aws_instance" "ec2" {
   subnet_id = "newSubnets"
   security_groups = [ "" ]
   tags = {
-    Name = "practise"
+    Name = "Zimisele"
   }
 }
 #we need to change instance type
