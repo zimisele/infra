@@ -13,3 +13,12 @@ resource "aws_security_group" "example" {
     Name = "Demos"
   }
 }
+resource "aws_instance" "anna" {
+  instance_type = "t3.micro"
+  subnet_id = "xxxx"
+  ami = ""
+  security_groups = [ "" ]
+  tags = {
+    Name = "myec2"
+  }
+}
