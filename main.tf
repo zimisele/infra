@@ -7,3 +7,4 @@ resource "aws_instance" "ec2" {
     Name = "Demo"
   }
 }
+#we need to change instance type
