@@ -10,5 +10,5 @@ module "prod" {
 
 module "myBucket" {
   source = "./modules/s3"
-  bucket = "Nana"
+  bucket = "Nana4232123"
 }
