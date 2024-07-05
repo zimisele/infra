@@ -14,3 +14,8 @@ variable "security_groups" {
   type = string
   default = "sg-09b29e261ed679695"
 }
+
+variable "bucket" {
+  type = string
+  default = "Zmiras"
+}
