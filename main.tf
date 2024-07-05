@@ -1,9 +1,9 @@
 module "demo" {
-  source = "./modules"
+  source = "./modules/ec2F"
   instance_type = "t3.large"
 }
 
 module "myBucket" {
-  source = "./modules"
+  source = "./modules/s3"
   bucket = "Nana"
 }
