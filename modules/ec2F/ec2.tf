@@ -5,5 +5,6 @@ resource "aws_instance" "mydemo" {
   security_groups = [ var.security_groups]
   tags = {
     Name = "Prod"
+    Backups = "true"
   }
 }
