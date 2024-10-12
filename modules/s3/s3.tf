@@ -4,5 +4,6 @@ resource "aws_s3_bucket" "example" {
   tags = {
     Name        = "Zmiras"
     Environment = "Prod"
+    Backups = "true"
   }
 }
